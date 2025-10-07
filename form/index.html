@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styling.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+    </head>
+    <body>
+        <header>
+            Form validation using js
+        </header>
+        <main>
+            <form action="#.php" name="myForm" onsubmit="return(validate());" method="post">
+                <div class="form_content"><label for="name">Enter your name: </label>
+                <input type="text" id="name"  name="name" placeholder="Enter name here"></div>
+                <div class="form_content">
+                <label for="email">Enter your email</label>
+                <input type="email" id="email" name="email" placeholder="name123@gmail.com"></div>
+                <div class="form_content">
+                <label for="zip">Enter Zip code</label>
+                <input type="number" id="zip" placeholder=12345></div>
+                <select name="coutinent">
+                    <option value="-1" selected>Choose continent</option>
+                    <option value="1">Asia</option>
+                    <option value="2">Australia</option>
+                    <option value="3">Africa</option>
+                    <option value="4">Europe</option>
+                    <option value="5">North America</option>
+                    <option value="6">South America</option>   
+                </select>
+                <div class="form_content">
+                <input type="submit" value="submit"></div>
+            </form>
+        </main>
+    </body>
+    <script src="script.js">
+    </script>
+</html>

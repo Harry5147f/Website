@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(15, 14, 14);
+}
+div{
+    margin:10px 0 10px 0;
+}
+header{
+    font-weight:bold;
+    font-size:40px;
+    padding-bottom:20px;
+    color:white;
+}
+ form{
+padding:10px 0 10px 20px;
+} 
+main{
+border-radius:5px;
+    width:30vw;
+    background-color:red;
+    margin:0 70% 0 20%;
+}
